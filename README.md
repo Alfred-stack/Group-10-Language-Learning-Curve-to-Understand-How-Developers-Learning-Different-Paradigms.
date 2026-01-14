@@ -6,7 +6,8 @@ This repository contains the complete analysis pipeline, dataset structure, and 
 
 The study investigates how developers learn various programming paradigms (Procedural/Imperative, Object-Oriented, Functional, Concurrent/Parallel, and Reactive/Event-Driven) using survey-based empirical data. The analysis was performed in Google Colab using Python, with fully documented steps for data cleaning, exploratory data analysis (EDA), statistical testing, learning-curve visualization, and qualitative thematic analysis.
 
-Structure of the Repo
+## Structure of the Repo
+```
 ├── data/
 │   ├── survey_responses.xlsx      # Raw survey data (17 responses)
 │
@@ -17,8 +18,9 @@ Structure of the Repo
 │   ├── *.png                      # Exported plots and visualizations
 │
 ├── README.md                      # Project overview and documentation
+```
 
-Research Overview
+## Research Overview
 
 Developers adopt programming paradigms at different speeds and with varying levels of difficulty. While much literature focuses on programming languages, very few studies examine learning curves associated with paradigms themselves.
 
